@@ -1,12 +1,20 @@
-
-
+/* variables */
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --GrisOscuro: #666;
+    --GrisClaro: #ebebeb;
+    --Verde: #39b54a;
+    --font-family: 'Roboto', sans-serif;
+    }
 /*  Header */
 header{
     background-color: var(--Amarillo);
 }
 
 .header .conteiner--logo .logo{
-    width: 260px;
+    width: 200px;
 }
 .conteiner--search{
     background-color: var(--GrisClaro);
@@ -17,6 +25,10 @@ header{
     margin: auto;
     border-radius: 4px;
 }
+.interes{
+    text-align: center;
+    font-size: 16px;
+}
 .nav{
     list-style: none;
     border: 0;
@@ -25,45 +37,47 @@ header{
 .nav  a{
     text-decoration: none;
     color: black;
-    font-family: 'Roboto', sans-serif;
-    display: inline-block;
-    font-size: 12px;    
+    font-family: var(--font-family);
+    font-size: 16px;    
 }
 .conteiner--burger{
     padding-bottom: 19px;
 }
 .nav--burger{
-    background-color: var(--Azul);
+    background-color: var(--Celeste);
     color: var(--GrisClaro);
     display: block;
-    max-width: 15%;
+    max-width: 16%;
     padding: 15px 0px;
     border-radius: 8px;
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
     margin: auto;
 }
+
+
+
 
 /* Main */
 .main h2{
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family)
     text-align: center;
 }
 
 .product--precio{
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family)
 }
 
 .product--descuento{
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    ffont-family: var(--font-family)
 }
 
 .product--product{
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family)
 }
 
 
@@ -72,27 +86,30 @@ header{
 
 
 /* Footer*/
-.conteiner--footer{
-   padding: 5px 4px;
-   border: 6px;
+footer {
+    text-align: center;
+    padding: 50px 15px 15px 15px;
+    background-color: white;
+  }
+
+.form i{
+ font-size: 45px;
+  color: var(--celeste);
 }
 
-.form a{
-    display: block;
-    
-    text-align: center;
-    font-size: 25px;
-    margin: auto;
-}
-.form h4{
-    padding: 4px;
+footer .form h4{
     font-size: 20px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family);
 }
 .form p{
-    padding: 4px;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family);
+}
+footer .form{
+    border: 20px 20px;
+}
+
+.Copy{
+    text-align: left;
 }
