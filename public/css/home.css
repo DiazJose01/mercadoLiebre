@@ -8,20 +8,41 @@
     --Verde: #39b54a;
     --font-family: 'Roboto', sans-serif;
     }
+
+ *{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+ }   
+
 /*  Header */
 header{
+    width: 100%;
     background-color: var(--Amarillo);
 }
 
 .header .conteiner--logo .logo{
-    width: 200px;
+    padding-top: 20px;
+    position: relative;
+    right: 23px;
+    width: 130px;
+}
+
+.header input{
+    position: relative;
+    left:20px ;
+     width: 167px;     
 }
 .conteiner--search{
+    position: relative;
+    left: 23px;
     background-color: var(--GrisClaro);
     color: black;
-    max-width: 5%;
+    max-width: 4%;
     padding: 2px;
-    padding-left: 5px;
+    padding-top: 1px;
+    padding-left: 3px;
+    padding-bottom: 1px;
     margin: auto;
     border-radius: 4px;
 }
@@ -38,16 +59,19 @@ header{
     text-decoration: none;
     color: black;
     font-family: var(--font-family);
-    font-size: 16px;    
+    font-size: 16px;   
+    display: none; 
 }
 .conteiner--burger{
     padding-bottom: 19px;
 }
 .nav--burger{
+    position: relative;
+    bottom: 10px;
     background-color: var(--Celeste);
     color: var(--GrisClaro);
     display: block;
-    max-width: 16%;
+    max-width: 15%;
     padding: 15px 0px;
     border-radius: 8px;
     text-align: center;
@@ -59,24 +83,57 @@ header{
 
 
 /* Main */
-.main h2{
-    font-size: 24px;
-    font-family: var(--font-family)
-    text-align: center;
+.main{
+    margin: 0 auto;
+    width: 90%;
+    padding: 5px;
+    background-color: var(--GrisClaro);
 }
 
+.conteiner--article{
+   padding: 0 10px;
+}
+.conteiner--product{
+    border: 1px solid var(--GrisClaro);
+    margin: 10px 0;
+    background-color: var(--GrisClaro);
+    border: 15px;
+} 
+
+.conteiner--descripcion{  
+    position: relative;
+    bottom: 4px;
+    border-top: 1px solid #ebebeb;
+    padding: 10px ;
+    background-color: white;
+}
+
+.conteiner--descripcion .truck{
+  border-radius: 100% ;
+  border: 1px solid var(--Verde);
+  width: 45px;
+  height: 45px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--Verde);
+}
+
+
+
 .product--precio{
-    font-size: 18px;
+    font-size: 1rem;
     font-family: var(--font-family)
 }
 
 .product--descuento{
-    font-size: 16px;
-    ffont-family: var(--font-family)
+  
+    color: var(--Verde);
+    font-family: var(--font-family)
 }
 
 .product--product{
-    font-size: 16px;
+    color: var(--GrisOscuro);
     font-family: var(--font-family)
 }
 
@@ -102,6 +159,8 @@ footer .form h4{
     font-family: var(--font-family);
 }
 .form p{
+    position: relative;
+    bottom: 19px;
     font-size: 22px;
     text-align: center;
     font-family: var(--font-family);
@@ -111,5 +170,55 @@ footer .form{
 }
 
 .Copy{
+    position: relative;
+    top:20px;
     text-align: left;
 }
+
+
+
+
+
+  @media (min-width: 769px) {
+    .header{
+        padding: 20px 20px;
+    }
+    .header .conteiner--logo .logo{
+        padding: 0;
+        border: 0;
+        width: 300px;
+    }
+
+    .header input{
+        width: 177px;
+        border: 0 11px;
+    }
+
+    .nav  a{   
+        display: block; 
+    }
+
+    .nav--burger{
+            display: none;
+    }
+
+    .banner{
+      position: relative;
+      bottom: 15px;
+    }
+
+    .main h2{
+        text-align: center;
+    }
+   .product {
+       box-shadow: 0px 0px 10px rgb(100, 100, 100);
+       margin: 19px 0;
+      }
+
+      .Copy{
+        text-align: center;  
+        }
+
+    }
+
+  
