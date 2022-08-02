@@ -7,4 +7,5 @@
 ## Mercado Liebre 4 - Posicionamiento avanzado con FlexBox
 
 ## [Mercado Liebre 5 - Formulario](https://github.com/DiazJose01/mercadoLiebre/tree/ML5)
- 
+
+## [Mercado Liebre 6 - Organizando Elementos](https://github.com/DiazJose01/mercadoLiebre/tree/ML6)
