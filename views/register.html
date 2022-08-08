@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre | register</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/beef23c28a.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="register">
+    <header class="header">
+        <div class="conteiner__logo--search">
+           <img class="logo" src="/images/logo-mercado-liebre.svg" alt="home">
+            <form action="">
+                <input type="search" name="busquedamusica" placeholder="Buscar productos, marcas">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+        <div class="conteiner--interes">
+            <p class="interes">
+                <i class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin tarjeta de credito
+            </p>
+        </div>
+        <nav>
+            <ul class="nav">
+                <li><a href="">Oferta</a></li>
+                <li><a href="">Tiendas oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>
+            <ul class="nav">
+                <li><a href="/register">Crea tu cuenta <i class="fa-solid fa-id-card"></i></a></li>
+                <li><a href="login">Ingresa <i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href="/">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
+            </ul>
+            <div class="conteriner--burger">
+                <a class="nav--burger" href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </nav>
+    </header>
+
+  <main class="conteiner__register">
+   <form action="">
+    <div class="user">
+        <label for="file">Foto de perfil de usuario</label>
+        <input type="file" id="file" name="file"  >
+       </div>
+        
+       <div class="datos_form">
+        <label for="text">Nombre</label>
+        <input type="text" id="text" placeholder="Ingresa tu nombre" name="text">
+        <label for="text">Apellido</label>
+       <input type="text" id="text" placeholder="Ingresa tu apellido" name="text">
+       <label for="text">Nombre de usuario</label>
+       <input type="text" id="text" placeholder="Ingresa tu nombre de usuario" name="text">
+       <label for="email">Email</label>
+       <input type="email" id="email" placeholder="Ingresa tu Email" name="email">
+       <label for="birthday">Fecha de nacimiento</label><input type="date" name="birthday" id="birthday">
+       <label for="text">ingresa tu domicilio</label>
+       <input type="text" placeholder="Domicilio" name="address">
+       </div>
+       <h4 class="category-title">Perfil de usuario</h4>
+       <div class="register__activity">
+        <div>
+            <label for="sell">Vender</label><input type="radio" value="vender" name="activity" id="sell">
+        </div>
+        <div>
+            <label for="buy">Comprar</label><input type="radio" value="comprar" name="activity" id="buy">
+        </div>
+    </div> 
+    <div>
+        <h4 class="category-title">Categorias</h4>
+        <ul class="categories-list">
+            <li><label for="electro">Electro</label><input type="checkbox" value="electro" name="electro"
+                    id="electro"></li>
+            <li><label for="moda">Moda</label><input type="checkbox" value="moda" name="moda" id="moda"></li>
+            <li><label for="hogar">Hogar</label><input type="checkbox" value="hogar" name="hogar" id="hogar">
+            </li>
+            <li><label for="jugueteria">Jugueteria</label><input type="checkbox" value="jugueteria"
+                    name="jugueteria" id="jugueteria"></li>
+            <li><label for="vidaSana">Vida Sana</label><input type="checkbox" value="vidaSana" name="vidaSana"
+                    id="vidaSana"></li>
+        </ul>
+    </div>
+    <div class="datos_form"> 
+    <label for="password">Ingresa tu contraseña</label>
+    <input type="password" id="password" placeholder="contraseña" name="password">
+    <label for="password">confirma tu contraseña</label>
+    <input type="password" id="password" placeholder="contraseña" name="password">
+    </div>
+
+    <div class="buttom__check">
+    <button class="buttom_submit" type="submit">Enviar</button>
+    <button class="buttom_reset" type="reset">borrar</button>
+    </div>
+   </form>
+  </main>
+  <footer class="footer">
+    <nav>
+        <div class="conteiner--footer">
+            <div class="form">
+                <a href="#"><i class="fa-solid fa-credit-card"></i></a>
+                <h4>
+                    Pagá con tarjeta o en efectivo
+                </h4>
+                <p>
+                    Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                    puntos de pago. ¡Y siempre es seguro!
+                </p>
+            </div>
+            <div class="form">
+                <a href="#"><i class="fa-solid fa-gift"></i></a>
+                <h4>
+                    Envío gratis desde $ 2.500
+                </h4>
+                <p>
+                    Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                    productos. Es un beneficio de Mercado Puntos
+                </p>
+            </div>
+            <div class="form">
+                <a href="#"><i class="fa-solid fa-user-shield"></i></a>
+                <h4>
+                    Seguridad, de principio a fin
+                </h4>
+                <p>
+                    ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                    porque estás siempre protegid@.
+                </p>
+            </div>
+        </div>
+        <p class="Copy">
+            Copyright © 1999-2020 MercadoLiebre S.R.L.
+        </p>
+    </nav>
+</footer>
+</body>
+
+</html>

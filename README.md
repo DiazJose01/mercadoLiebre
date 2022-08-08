@@ -4,7 +4,6 @@
 
 ## [Mercado Liebre 3 - Diseño Adaptativo](https://github.com/DiazJose01/mercadoLiebre/tree/ML3)
 
-<<<<<<< HEAD
 ## [Mercado Liebre 4 - Posicionamiento avanzado con FlexBox](https://github.com/DiazJose01/mercadoLiebre/tree/ML4)
 
 # Mercado Liebre 5 - Formulario
